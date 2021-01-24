@@ -56,4 +56,25 @@ alalala
 ## Setup Docker
 pathetic
 # After install
+```
+First look, it may easy to familiar with ubuntu desktop environment(gnome).
+Just use like on windows, but when you used to it, you should learn how to use terminal.
+```
+1. Update your Ubuntu use `software updater` 
+2. :3 it time to blow mind, let's install some familiar tools like (unikey):
+  + press `Ctrl + Alt + T` to open terminal(similar `cmd` or `shell` on windows)
+  Oh, wait. Don't forget to connect to internet :v wired or wireless
+  + add ubuntu-vn repo: `sudo add-apt-repository ppa:ubuntu-vn/ppa ` 
+  + update all repo source: `sudo apt-get update`
+  + install ibus from repo: `sudo apt-get install ibus-unikey`
+  + restart ibus: `ibus restart`
+  + Go to: [ Settings ] -> [ Region  & Language ] -> [Input Sources ] -> click [ + ] ->  [ Add an Input Source ] -> find `Vietnamese` -> `Vietnamese (Unikey)` ->  `Add`
+  + After that you can see language simbol at up-right conner (you can setup shortcut in setting to change language quickly)
+*It would be very familiar if you jailbreaked an iphone before, likes add repo source then installs some tweaks :3*
+ 3. The default text editor of Ubuntu is gedit but you can install notepad++, sublime text or even VS code 
+  + you can install it from terminal or ubuntu software
+ 4. Ubuntu already has Libre Office so you don't really need install MS Office
+ 5. Sync Ubuntu and Windows time
+  + Open terminal then type this command `timedatectl set-local-rtc 1 --adjust-system-clock`
+ 
 # Tools
