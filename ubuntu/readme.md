@@ -6,8 +6,12 @@
 |WSL && WSL2|
 
 # Install ubuntu
+||
+|-|
+|[Dual boot windows with Ubuntu](#dual-boot-windows-with-ubuntu)|
+|[VM Ubuntu](#vm-ubuntu)|
+|[WSL && WSL2](#wsl-&&-wsl2)|
 ## dual-boot windows with Ubuntu
-### 
 1. Download ubuntu image file to your computer  
 [Link download official](https://ubuntu.com/#download)
 2. Download rufus  
@@ -44,3 +48,7 @@
  - Now it’s time to select an Installation Type. You can choose to Install `Ubuntu alongside Windows Boot Manager`, an option that will automatically take care of all the partition steps. (THE EASIEST WAY)
  - Click Continue then wait :>
  - There're some bla bla steps, but I belive u can handle it yourself. :>>
+## VM Ubuntu
+alalala
+## WSL && WSL2
+alalala
