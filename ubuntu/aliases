@@ -45,7 +45,7 @@ cnasm(){
 pcrt(){
 	fulldir=$(pwd)/$1
 	dir=$(pwd)
-	cd ~/PCRT-master/
+	cd $HOME/tools/PCRT-master/
 	python PCRT.py -v -i $fulldir
 	mv output.png $dir
 	cd $dir
@@ -57,11 +57,11 @@ alias gh='history|grep'
 alias cpv='rsync -ah --info=progress2'
 cmasm(){
 	filename=${1%.*}
-	wine ~/masm32/bin/ml.exe /c /Zd /coff $filename.asm
-	wine ~/masm32/bin/Link.exe /SUBSYSTEM:CONSOLE $filename.obj
+	wine $HOME/tools/masm32/bin/ml.exe /c /Zd /coff $filename.asm
+	wine $HOME/tools/masm32/bin/Link.exe /SUBSYSTEM:CONSOLE $filename.obj
 }
 ollydbg(){
-	wine ~/odbg200/ollydbg.exe $*
+	wine $HOME/tools/odbg200/ollydbg.exe $*
 }
 # =================================================
 alias check_aslr='cat /proc/sys/kernel/randomize_va_space'
