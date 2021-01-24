@@ -10,7 +10,7 @@
 |-|
 |[Dual boot windows with Ubuntu](#dual-boot-windows-with-ubuntu)|
 |[VM Ubuntu](#vm-ubuntu)|
-|[WSL && WSL2](#wsl-&&-wsl2)|
+|[WSL && WSL2](#wsl--wsl2)|
 ## dual-boot windows with Ubuntu
 1. Download ubuntu image file to your computer  
 [Link download official](https://ubuntu.com/#download)
