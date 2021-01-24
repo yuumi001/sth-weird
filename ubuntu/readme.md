@@ -1,9 +1,9 @@
 
 ||
 |-|
-|[Dual boot windows with Ubuntu](#dual-boot-windows-with-ubuntu)|
-|VM Ubuntu|
-|WSL && WSL2|
+|[Install Ubuntu](#install-ubuntu)|
+|[After Install](#after-install)|
+|[Tools](#tools)|
 
 # Install ubuntu
 ||
@@ -11,6 +11,7 @@
 |[Dual boot windows with Ubuntu](#dual-boot-windows-with-ubuntu)|
 |[VM Ubuntu](#vm-ubuntu)|
 |[WSL && WSL2](#wsl--wsl2)|
+|[Setup docker](#setup-docker)|
 ## Dual-boot windows with Ubuntu
 1. Download ubuntu image file to your computer  
 [Link download official](https://ubuntu.com/#download)
@@ -52,3 +53,7 @@
 alalala
 ## WSL && WSL2
 alalala
+## Setup Docker
+pathetic
+# After install
+# Tools
