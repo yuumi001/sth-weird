@@ -78,4 +78,9 @@ Just use like on windows, but when you used to it, you should learn how to use t
   + Open terminal then type this command `timedatectl set-local-rtc 1 --adjust-system-clock`
  
 # Tools
-[Link install all tools](/ubuntu/one-for-all.sh)
+[Link install all tools-Ubuntu-18-04](/ubuntu/one-for-all.sh)
+- Download file
+- Open terminal in downloaded directory
+- `chmod +x one-for-all.sh`
+- `./one-for-all.sh`
+- Enter password then wait...
