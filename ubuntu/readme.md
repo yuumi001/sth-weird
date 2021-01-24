@@ -36,4 +36,4 @@
  - Next, choose the first option “Normal Installation” and hit on the Continue button again. (you can choose Install third-party to automatic install drive for ubuntu)
  - Now it’s time to select an Installation Type. You can choose to Install `Ubuntu alongside Windows Boot Manager`, an option that will automatically take care of all the partition steps. (THE EASIEST WAY)
  - Click Continue then wait :>
- - Then some bla bla step, but I belive u can handle it yourself. :>>
+ - There're some bla bla steps, but I belive u can handle it yourself. :>>
