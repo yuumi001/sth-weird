@@ -1,5 +1,5 @@
 # install ubuntu
-## dual windows with ubuntu
+## dual-boot windows with ubuntu
 ### 
 1. Download ubuntu image file to your computer  
 [Link download official](https://ubuntu.com/#download)
