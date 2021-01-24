@@ -1,4 +1,4 @@
-# install ubuntu
+# Install ubuntu
 ## dual-boot windows with ubuntu
 ### 
 1. Download ubuntu image file to your computer  
