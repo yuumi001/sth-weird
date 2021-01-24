@@ -78,4 +78,4 @@ Just use like on windows, but when you used to it, you should learn how to use t
   + Open terminal then type this command `timedatectl set-local-rtc 1 --adjust-system-clock`
  
 # Tools
-[Link install all tools](/ubuntu/one-for-all.sh?raw=true?export=download)
+[Link install all tools](/ubuntu/one-for-all.sh)
