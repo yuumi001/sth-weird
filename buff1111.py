@@ -7,29 +7,43 @@ import time
 import os
 import sys
 script_version = '4.0.0'
-window_title   = f"WARP-PLUS-CLOUDFLARE (version {script_version})"
+window_title   = f"WARP-PLUS-CLOUDFLARE By ALIILAPRO (version {script_version})"
 os.system('title ' + window_title if os.name == 'nt' else 'PS1="\[\e]0;' + window_title + '\a\]"; echo $PS1')
 os.system('cls' if os.name == 'nt' else 'clear')
-#referrer  = input("[#] Enter the WARP+ ID:")
-referrer ="e4a960a6-de6d-4fdb-ac91-3de482f476c7"
-# def progressBar():
-# 	animation     = ["[□□□□□□□□□□]","[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]"]
-# 	progress_anim = 0
-# 	save_anim     = animation[progress_anim % len(animation)]
-# 	percent       = 0
-# 	while True:
-# 		for i in range(10):
-# 			percent += 1
-# 			sys.stdout.write(f"\r[+] Waiting response...  " + save_anim + f" {percent}%")
-# 			sys.stdout.flush()
-# 			time.sleep(0.075)
-# 		progress_anim += 1
-# 		save_anim = animation[progress_anim % len(animation)]
-# 		if percent == 100:
-# 			sys.stdout.write("\r[+] Request completed... [■■■■■■■■■■] 100%")
-# 			break
-def noti():
-	print("Request completed...")
+print('      _______ _      __________________       _______ _______ _______ _______\n'
+'     (  ___  | \     \__   __|__   __( \     (  ___  |  ____ |  ____ |  ___  )\n'
+'     | (   ) | (        ) (     ) (  | (     | (   ) | (    )| (    )| (   ) |\n'
+'     | (___) | |        | |     | |  | |     | (___) | (____)| (____)| |   | |\n'
+'     |  ___  | |        | |     | |  | |     |  ___  |  _____)     __) |   | |\n'
+'     | (   ) | |        | |     | |  | |     | (   ) | (     | (\ (  | |   | |\n'
+'     | )   ( | (____/\__) (_____) (__| (____/\ )   ( | )     | ) \ \_| (___) |\n'
+'     |/     \(_______|_______|_______(_______//     \|/      |/   \__(_______)\n')
+print ("[+] ABOUT SCRIPT:")
+print ("[-] With this script, you can getting unlimited GB on Warp+.")
+print (f"[-] Version: {script_version}")
+print ("--------")
+print ("[+] THIS SCRIPT CODDED BY ALIILAPRO") 
+print ("[-] SITE: aliilapro.github.io") 
+print ("[-] TELEGRAM: aliilapro")
+print ("--------")
+referrer  = input("[#] Enter the WARP+ ID:")
+def progressBar():
+	animation     = ["[□□□□□□□□□□]","[■□□□□□□□□□]","[■■□□□□□□□□]", "[■■■□□□□□□□]", "[■■■■□□□□□□]", "[■■■■■□□□□□]", "[■■■■■■□□□□]", "[■■■■■■■□□□]", "[■■■■■■■■□□]", "[■■■■■■■■■□]"]
+	progress_anim = 0
+	save_anim     = animation[progress_anim % len(animation)]
+	percent       = 0
+	while True:
+		for i in range(10):
+			percent += 1
+			sys.stdout.write(f"\r[+] Waiting response...  " + save_anim + f" {percent}%")
+			sys.stdout.flush()
+			time.sleep(0.075)
+		progress_anim += 1
+		save_anim = animation[progress_anim % len(animation)]
+		if percent == 100:
+			sys.stdout.write("\r[+] Request completed... [■■■■■■■■■■] 100%")
+			break
+
 def genString(stringLength):
 	try:
 		letters = string.ascii_letters + string.digits
@@ -72,29 +86,28 @@ def run():
 g = 0
 b = 0
 while True:
-	# os.system('cls' if os.name == 'nt' else 'clear')
-	# print("")
-	# print("                  WARP-PLUS-CLOUDFLARE (script)" + " By ALIILAPRO")
-	# print("")
-	# sys.stdout.write("\r[+] Sending request...   [□□□□□□□□□□] 0%")
-	# sys.stdout.flush()
+	os.system('cls' if os.name == 'nt' else 'clear')
+	print("")
+	print("                  WARP-PLUS-CLOUDFLARE (script)" + " By ALIILAPRO")
+	print("")
+	sys.stdout.write("\r[+] Sending request...   [□□□□□□□□□□] 0%")
+	sys.stdout.flush()
 	result = run()
 	if result == 200:
 		g += 1
-		# progressBar()
-		noti()
-		# print(f"\n[-] WORK ON ID: {referrer}")    
+		progressBar()
+		print(f"\n[-] WORK ON ID: {referrer}")    
 		print(f"[:)] {g} GB has been successfully added to your account.")
 		print(f"[#] Total: {g} Good {b} Bad")
-	#	for i in range(18,0,-1):
-	#		sys.stdout.write(f"\r[*] After {i} seconds, a new request will be sent.")
-	#		sys.stdout.flush()
-		time.sleep(1)
+		for i in range(18,0,-1):
+			sys.stdout.write(f"\r[*] After {i} seconds, a new request will be sent.")
+			sys.stdout.flush()
+			time.sleep(1)
 	else:
 		b += 1
 		print("[:(] Error when connecting to server.")
 		print(f"[#] Total: {g} Good {b} Bad")
-	#	for i in range(10,0,-1):
-	#		sys.stdout.write(f"\r[*] Retrying in {i}s...")
-		#	sys.stdout.flush()
-		time.sleep(1)
+		for i in range(10,0,-1):
+			sys.stdout.write(f"\r[*] Retrying in {i}s...")
+			sys.stdout.flush()
+			time.sleep(1)
