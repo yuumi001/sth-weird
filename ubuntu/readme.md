@@ -84,3 +84,4 @@ Just use like on windows, but when you used to it, you should learn how to use t
 - `chmod +x one-for-all.sh`
 - `./one-for-all.sh`
 - Enter password then wait...
+[Link install all tools-ubuntu-20-04]() (Updating..)
