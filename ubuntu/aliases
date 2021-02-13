@@ -45,7 +45,7 @@ cnasm(){
 pcrt(){
 	fulldir=$(pwd)/$1
 	dir=$(pwd)
-	cd $HOME/tools/PCRT-master/
+	cd $HOME/tools/PCRT/
 	python PCRT.py -v -i $fulldir
 	mv output.png $dir
 	cd $dir
