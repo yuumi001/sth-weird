@@ -1,4 +1,4 @@
-import socket #Minn <3
+import socket # Minn <3
 
 HOST = '192.168.1.2'
 PORT = 1810  
